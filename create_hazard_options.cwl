@@ -29,7 +29,7 @@ $graph:
         NetworkAccess:
             networkAccess: true
         DockerRequirement:
-            dockerImageId: create_hazard_options:osx
+            dockerPull: public.ecr.aws/z0u8g6n1/eodh_hazard_options:latest
     baseCommand: main.py
     inputs:
         catalog_url:
